@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poker.PokerController">
+    <children>
+        <Button fx:id="button" layoutX="124.0" layoutY="416.0" onAction="#showHandType" text="Display Type of Hand" />
+        <Label fx:id="rankLabel" layoutX="42.0" layoutY="45.0" minHeight="16" minWidth="69" text="Rank: " />
+        <Label fx:id="suitLabel" layoutX="233.0" layoutY="45.0" minHeight="16" minWidth="69" text="Suit:" />
+        <Label fx:id="rankDescripLabel" layoutX="42.0" layoutY="71.0" minHeight="16" minWidth="69" prefHeight="51.0" prefWidth="120.0" text="Ace = 1, Jack = 11, Queen = 12, King = 13" wrapText="true" />
+        <Label fx:id="suitDescripLabel" layoutX="230.0" layoutY="71.0" minHeight="16" minWidth="69" prefHeight="51.0" prefWidth="120.0" text="Diamonds = D , Hearts = H, Clubs = C, Spades = S" wrapText="true" />
+        <Label fx:id="card1Label" layoutX="33.0" layoutY="150.0" minHeight="16" minWidth="69" text="Card #1:" />
+        <Label fx:id="card2Label" layoutX="33.0" layoutY="200.0" minHeight="16" minWidth="69" text="Card #2:" />
+        <Label fx:id="card3Label" layoutX="33.0" layoutY="250.0" minHeight="16" minWidth="69" text="Card #3:" />
+        <Label fx:id="card4Label" layoutX="33.0" layoutY="300.0" minHeight="16" minWidth="69" text="Card #4:" />
+        <Label fx:id="card5Label" layoutX="33.0" layoutY="350.0" minHeight="16" minWidth="69" text="Card #5:" />
+        <TextField fx:id="card1Rank" layoutX="115.0" layoutY="146.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card2Rank" layoutX="115.0" layoutY="196.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card3Rank" layoutX="115.0" layoutY="246.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card4Rank" layoutX="115.0" layoutY="296.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card5Rank" layoutX="115.0" layoutY="346.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card1Suit" layoutX="238.0" layoutY="146.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card2Suit" layoutX="238.0" layoutY="196.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card3Suit" layoutX="238.0" layoutY="246.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card4Suit" layoutX="238.0" layoutY="296.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="card5Suit" layoutX="238.0" layoutY="346.0" prefHeight="25.0" prefWidth="58.0" />
+        <Label fx:id="pokerHandTypeLabel" layoutX="109.0" layoutY="452.0" prefHeight="17.0" prefWidth="157.0" text="What's in your hand?" wrapText="true" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="109.0" />
+    </children>
+</AnchorPane>
